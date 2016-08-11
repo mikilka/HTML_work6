@@ -1,0 +1,26 @@
+body {
+	width: 1000px;
+	height: 1310px;
+}
+
+.shape
+{
+	display: inline-block;
+	width: 21px;
+	height: 21px;
+	-webkit-border-radius: 11px 10px 10px 11px/11px 11px 10px 10px;
+	-moz-border-radius: 11px 10px 10px 11px/11px 11px 10px 10px;
+	border-radius: 11px 10px 10px 11px/11px 11px 10px 10px;
+	background-color: #f10000;
+	background-image: -webkit-linear-gradient(bottom, #206988, #114165 59%, #0c3256);
+	background-image: -moz-linear-gradient(bottom, #206988, #114165 59%, #0c3256);
+	background-image: -o-linear-gradient(bottom, #206988, #114165 59%, #0c3256);
+	background-image: -ms-linear-gradient(bottom, #206988, #114165 59%, #0c3256);
+	background-image: linear-gradient(to top, #206988, #114165 59%, #0c3256);
+}
+
+.shape img {
+	width: 15px;
+	height: 20px;
+	padding-left: 3px;
+}
