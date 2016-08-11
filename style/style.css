@@ -3,9 +3,19 @@ body {
 	height: 1310px;
 }
 
+header {
+	display: flex;
+	margin: 26px 53px;
+}
+
+.tel {
+	margin: 3px 2px;
+	font-family: Arial, sans-serif;
+	letter-spacing: 1.5px;
+}
+
 .shape
 {
-	display: inline-block;
 	width: 21px;
 	height: 21px;
 	-webkit-border-radius: 11px 10px 10px 11px/11px 11px 10px 10px;
@@ -23,4 +33,53 @@ body {
 	width: 15px;
 	height: 20px;
 	padding-left: 3px;
+}
+
+.TopForm {
+	display: flex;
+	width: 495px;
+	height: 26px;
+	margin: -5px 15px;
+	-webkit-border-radius: 4px/3px;
+	-moz-border-radius: 4px/3px;
+	border-radius: 4px/3px;
+	background-color: #b1bcc0;
+	-webkit-box-shadow: 2px 3px 3px rgba(150,150,150,.75);
+	-moz-box-shadow: 2px 3px 3px rgba(150,150,150,.75);
+	box-shadow: 2px 3px 3px rgba(150,150,150,.75);
+	background-image: -webkit-linear-gradient(top, #206988, #114165 59%, #0c3256);
+	background-image: -moz-linear-gradient(top, #206988, #114165 59%, #0c3256);
+	background-image: -o-linear-gradient(top, #206988, #114165 59%, #0c3256);
+	background-image: -ms-linear-gradient(top, #206988, #114165 59%, #0c3256);
+	background-image: linear-gradient(to bottom, #206988, #114165 59%, #0c3256);
+}
+
+.TopForm img {
+	margin: 5px;
+	height: 18px;
+}
+
+.TopForm input {
+	width: 113px;
+	height: 12px;
+	margin: 5px 5px 5px 0;
+	background-color: #fff;
+	border: solid 1px #9ba1a3;
+}
+
+.avtorization {
+	font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+	color: #fff;
+	margin-top: 8px;
+	font-size: 11px;
+}
+
+nav {
+	width: 75px;
+	height: 19px;
+	-webkit-border-radius: 10px/10px 10px 9px 9px;
+	-moz-border-radius: 10px/10px 10px 9px 9px;
+	border-radius: 10px/10px 10px 9px 9px;
+	background-color: #fff;
+	border: solid 1px #bdc4c7;
 }
