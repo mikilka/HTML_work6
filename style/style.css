@@ -5,7 +5,7 @@ body {
 
 header {
 	display: flex;
-	margin: 26px 53px;
+	margin: 22px 53px;
 }
 
 .tel {
@@ -60,21 +60,40 @@ header {
 }
 
 .TopForm input {
-	width: 113px;
-	height: 12px;
-	margin: 5px 5px 5px 0;
+	width: 108px;
+	height: 13px;
+	margin: 4px 5px 5px 0;
+	padding-left: 5px;
+	font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+	font-size: 11px;
 	background-color: #fff;
 	border: solid 1px #9ba1a3;
+	border-radius: 2px;
 }
 
 .avtorization {
 	font-family: 'Lucida Sans Unicode', Arial, sans-serif;
 	color: #fff;
 	margin-top: 8px;
+	margin-left: 3px;
 	font-size: 11px;
+	letter-spacing: -.3px;
 }
 
-nav {
+.avtorization a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.forgotpass {
+	font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+	color: #fff;
+	font-size: 13px;
+	margin: 8px 0 0 22px;
+	letter-spacing: -.6px;
+}
+
+.mainnav {
 	width: 75px;
 	height: 19px;
 	-webkit-border-radius: 10px/10px 10px 9px 9px;
@@ -82,4 +101,36 @@ nav {
 	border-radius: 10px/10px 10px 9px 9px;
 	background-color: #fff;
 	border: solid 1px #bdc4c7;
+	margin-top: -3px;
+}
+
+.mainnav a {
+	margin: 0 -4px 0 9px;
+}
+
+.logo {
+	margin: -12px 45px;
+}
+
+section header {
+	margin: 15px 44px;
+	width: 910px;
+	height: 32px;
+	-webkit-border-radius: 5px/3px 3px 2px 2px;
+	-moz-border-radius: 5px/3px 3px 2px 2px;
+	border-radius: 5px/3px 3px 2px 2px;
+	background-color: #fff;
+	-webkit-box-shadow: 2px 3px 5px rgba(0,0,0,.75);
+	-moz-box-shadow: 2px 3px 5px rgba(0,0,0,.75);
+	box-shadow: 2px 3px 5px rgba(0,0,0,.75);
+	border: solid 1px #0d1642;
+	background-image: -webkit-linear-gradient(bottom, #000, #576068);
+	background-image: -moz-linear-gradient(bottom, #000, #576068);
+	background-image: -o-linear-gradient(bottom, #000, #576068);
+	background-image: -ms-linear-gradient(bottom, #000, #576068);
+	background-image: linear-gradient(to top, #000, #576068);
+}
+
+.subnav {
+	
 }
