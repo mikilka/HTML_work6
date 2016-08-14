@@ -211,3 +211,144 @@ section header
 .numeric {
     color: #0d5a8f;
 }
+
+.search {
+    display: flex;
+    justify-content: space-around;
+    margin: -4px 44px;
+}
+
+.avto {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 413px;
+    height: 132px;
+    -webkit-border-radius: 18px 17px 17px 18px/17px;
+    -moz-border-radius: 18px 17px 17px 18px/17px;
+    border-radius: 18px 17px 17px 18px/17px;
+    background-color: #fff;
+    -webkit-box-shadow: 3px 4px 5px rgba(104,104,104,.75), inset 1px 1px 5px rgba(0,0,0,.75);
+    -moz-box-shadow: 3px 4px 5px rgba(104,104,104,.75), inset 1px 1px 5px rgba(0,0,0,.75);
+    box-shadow: 3px 4px 5px rgba(104,104,104,.75), inset 1px 1px 5px rgba(0,0,0,.75);
+    border: solid 1px #9c9c9d;
+}
+
+.avto h2 {
+    position: absolute;
+    top: 1px;
+    text-align: center;
+    margin-left: -4px;
+    font-family: Arial, sans-serif;
+    color: #154467;
+    font-weight: 800;
+    font-size: 9pt;
+    letter-spacing: .3px;
+}
+
+.title1 {
+    position: absolute;
+    font-family: Arial, sans-serif;
+    font-size: 9px;
+    font-weight: 800;
+    top: 6px;
+    left: 19px;
+    letter-spacing: 1px;
+    color: #154467;
+}
+
+.title2 {
+    position: absolute;
+    font-family: Arial, sans-serif;
+    font-size: 9px;
+    font-weight: 800;
+    top: 4px;
+    right: 21px;
+    letter-spacing: 1px;
+    color: #154467;
+}
+
+.searchlist1 {
+    height: 80%;
+    width: 53%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*ВЫРОВНЯТЬ!!!!!!!!!!!!!!!!!*/
+
+[name="avtomark"],
+[name="avtomodel"],
+[name="equipment"] {
+    width: 101px;
+    height: 17px;
+    background-color: #fff;
+    -webkit-box-shadow: inset 1px 1px 1px rgba(0,0,0,.75);
+    -moz-box-shadow: inset 1px 1px 1px rgba(0,0,0,.75);
+    box-shadow: inset 1px 1px 1px rgba(0,0,0,.75);
+}
+
+[name="avtoyear"] {
+    width: 57px;
+    height: 17px;
+    background-color: #fff;
+    -webkit-box-shadow: inset 1px 1px 1px rgba(0,0,0,.75);
+    -moz-box-shadow: inset 1px 1px 1px rgba(0,0,0,.75);
+    box-shadow: inset 1px 1px 1px rgba(0,0,0,.75);
+}
+
+.searchtitle {
+    margin-top: 32px;
+    margin-left: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: -.5px;
+    font-weight: 600;
+}
+
+.row {
+    margin: -5px -4px 0 -4px;
+    display: block;
+}
+
+.small {
+    color: #77858b;
+}
+
+.searchlists {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 19px;
+}
+
+.tire {
+    width: 191px;
+    height: 135px;
+    -webkit-border-radius: 17px/19px;
+    -moz-border-radius: 17px/19px;
+    border-radius: 17px/19px;
+    background-color: #fff;
+    -webkit-box-shadow: 3px 4px 5px rgba(150,150,150,.75), inset 1px 1px 5px rgba(0,0,0,.75);
+    -moz-box-shadow: 3px 4px 5px rgba(150,150,150,.75), inset 1px 1px 5px rgba(0,0,0,.75);
+    box-shadow: 3px 4px 5px rgba(150,150,150,.75), inset 1px 1px 5px rgba(0,0,0,.75);
+    border: solid 1px #9c9c9d;
+}
+
+.wheel {
+    width: 266px;
+    height: 134px;
+    -webkit-border-radius: 14px/18px 18px 17px 17px;
+    -moz-border-radius: 14px/18px 18px 17px 17px;
+    border-radius: 14px/18px 18px 17px 17px;
+    background-color: #fff;
+    -webkit-box-shadow: 3px 4px 5px rgba(150,150,150,.75), inset 1px 1px 5px rgba(0,0,0,.75);
+    -moz-box-shadow: 3px 4px 5px rgba(150,150,150,.75), inset 1px 1px 5px rgba(0,0,0,.75);
+    box-shadow: 3px 4px 5px rgba(150,150,150,.75), inset 1px 1px 5px rgba(0,0,0,.75);
+    border: solid 1px #9c9c9d;
+}
+
