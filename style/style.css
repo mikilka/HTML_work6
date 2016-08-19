@@ -21,15 +21,9 @@ header
 {
     width: 21px;
     height: 21px;
-    -webkit-border-radius: 11px 10px 10px 11px/11px 11px 10px 10px;
-       -moz-border-radius: 11px 10px 10px 11px/11px 11px 10px 10px;
-            border-radius: 11px 10px 10px 11px/11px 11px 10px 10px;
+    border-radius: 11px 10px 10px 11px/11px 11px 10px 10px;
     background-color: #f10000;
-    background-image: -webkit-linear-gradient(bottom, #206988, #114165 59%, #0c3256);
-    background-image:    -moz-linear-gradient(bottom, #206988, #114165 59%, #0c3256);
-    background-image:      -o-linear-gradient(bottom, #206988, #114165 59%, #0c3256);
-    background-image:     -ms-linear-gradient(bottom, #206988, #114165 59%, #0c3256);
-    background-image:         linear-gradient(to top, #206988, #114165 59%, #0c3256);
+    background-image: linear-gradient(to top, #206988, #114165 59%, #0c3256);
 }
 
 .shape img
@@ -44,19 +38,11 @@ header
     display: flex;
     width: 495px;
     height: 26px;
-    margin: -5px 15px;
-    -webkit-border-radius: 4px/3px;
-       -moz-border-radius: 4px/3px;
-            border-radius: 4px/3px;
+    margin: -5px 14px;
+    border-radius: 4px/3px;
     background-color: #b1bcc0;
-    background-image: -webkit-linear-gradient(top, #206988, #114165 59%, #0c3256);
-    background-image:    -moz-linear-gradient(top, #206988, #114165 59%, #0c3256);
-    background-image:      -o-linear-gradient(top, #206988, #114165 59%, #0c3256);
-    background-image:     -ms-linear-gradient(top, #206988, #114165 59%, #0c3256);
-    background-image:         linear-gradient(to bottom, #206988, #114165 59%, #0c3256);
-    -webkit-box-shadow: 2px 3px 3px rgba(150, 150, 150, .75);
-       -moz-box-shadow: 2px 3px 3px rgba(150, 150, 150, .75);
-            box-shadow: 2px 3px 3px rgba(150, 150, 150, .75);
+    background-image: linear-gradient(to bottom, #206988, #114165 59%, #0c3256);
+    box-shadow: 2px 3px 3px rgba(150, 150, 150, .75);
 }
 
 .TopForm img
@@ -109,9 +95,7 @@ header
     height: 19px;
     margin-top: -3px;
     border: solid 1px #bdc4c7;
-    -webkit-border-radius: 10px/10px 10px 9px 9px;
-       -moz-border-radius: 10px/10px 10px 9px 9px;
-            border-radius: 10px/10px 10px 9px 9px;
+    border-radius: 10px/10px 10px 9px 9px;
     background-color: #fff;
 }
 
@@ -131,25 +115,13 @@ section header
     height: 32px;
     margin: 15px 44px;
     border: solid 1px #0d1642;
-    -webkit-border-radius: 5px/3px 3px 2px 2px;
-       -moz-border-radius: 5px/3px 3px 2px 2px;
-            border-radius: 5px/3px 3px 2px 2px;
+    border-radius: 5px/3px 3px 2px 2px;
     background-color: #fff;
-    background-image: -webkit-linear-gradient(bottom, #000, #576068);
-    background-image:    -moz-linear-gradient(bottom, #000, #576068);
-    background-image:      -o-linear-gradient(bottom, #000, #576068);
-    background-image:     -ms-linear-gradient(bottom, #000, #576068);
-    background-image:         linear-gradient(to top, #000, #576068);
-    -webkit-box-shadow: 2px 3px 5px rgba(0, 0, 0, .75);
-       -moz-box-shadow: 2px 3px 5px rgba(0, 0, 0, .75);
-            box-shadow: 2px 3px 5px rgba(0, 0, 0, .75);
+    background-image: linear-gradient(to top, #000, #576068);
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, .75);
 }
 
 .subnav {
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
     display: flex;
     margin-left: 130px;
 }
@@ -177,14 +149,8 @@ section header
 }
 
 .subnav a:hover {
-    -webkit-border-radius: 12px/13px;
-    -moz-border-radius: 12px/13px;
     border-radius: 12px/13px;
     background-color: #f60303;
-    background-image: -webkit-linear-gradient(top, #206988, #114165 59%, #0c3256);
-    background-image: -moz-linear-gradient(top, #206988, #114165 59%, #0c3256);
-    background-image: -o-linear-gradient(top, #206988, #114165 59%, #0c3256);
-    background-image: -ms-linear-gradient(top, #206988, #114165 59%, #0c3256);
     background-image: linear-gradient(to bottom, #206988, #114165 59%, #0c3256);
 }
 
@@ -224,12 +190,8 @@ section header
     position: relative;
     width: 413px;
     height: 132px;
-    -webkit-border-radius: 18px 17px 17px 18px/17px;
-    -moz-border-radius: 18px 17px 17px 18px/17px;
     border-radius: 18px 17px 17px 18px/17px;
     background-color: #fff;
-    -webkit-box-shadow: 3px 4px 5px rgba(104,104,104,.75), inset 1px 1px 5px rgba(0,0,0,.75);
-    -moz-box-shadow: 3px 4px 5px rgba(104,104,104,.75), inset 1px 1px 5px rgba(0,0,0,.75);
     box-shadow: 3px 4px 5px rgba(104,104,104,.75), inset 1px 1px 5px rgba(0,0,0,.75);
     border: solid 1px #9c9c9d;
 }
@@ -271,10 +233,6 @@ section header
 .searchlist1 {
     height: 80%;
     width: 53%;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
     display: flex;
     justify-content: space-around;
 }
@@ -294,17 +252,12 @@ section header
     width: 101px;
     height: 17px;
     background-color: #fff;
-    -webkit-box-shadow: inset 1px 1px 1px rgba(0,0,0,.75);
-    -moz-box-shadow: inset 1px 1px 1px rgba(0,0,0,.75);
     box-shadow: inset 1px 1px 1px rgba(0,0,0,.75);
 }
 
 [name="avtoyear"] {
     width: 57px;
     height: 17px;
-    background-color: #fff;
-    -webkit-box-shadow: inset 1px 1px 1px rgba(0,0,0,.75);
-    -moz-box-shadow: inset 1px 1px 1px rgba(0,0,0,.75);
     box-shadow: inset 1px 1px 1px rgba(0,0,0,.75);
 }
 
@@ -335,28 +288,131 @@ section header
 }
 
 .tire {
+    position: relative;
     width: 191px;
-    height: 135px;
-    -webkit-border-radius: 17px/19px;
-    -moz-border-radius: 17px/19px;
     border-radius: 17px/19px;
     background-color: #fff;
-    -webkit-box-shadow: 3px 4px 5px rgba(150,150,150,.75), inset 1px 1px 5px rgba(0,0,0,.75);
-    -moz-box-shadow: 3px 4px 5px rgba(150,150,150,.75), inset 1px 1px 5px rgba(0,0,0,.75);
     box-shadow: 3px 4px 5px rgba(150,150,150,.75), inset 1px 1px 5px rgba(0,0,0,.75);
     border: solid 1px #9c9c9d;
+}
+
+.tire h2,
+.wheel h2 {
+    position: absolute;
+    top: 2px;
+    margin-left: 10px;
+    font-family: Arial, sans-serif;
+    color: #154467;
+    font-weight: 800;
+    font-size: 9pt;
+    letter-spacing: .3px;
+}
+
+.size {
+    display: flex;
+    margin-top: 21px;
+    margin-left: 14px;
+}
+
+.size span {
+    margin-top: 10px;
+    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: -.1px;
+}
+
+[name="size1"],
+[name="size2"] {
+    width: 51px;
+    height: 17px;
+    margin-top: 1px;
+    box-shadow: inset 1px 1px 1px rgba(0,0,0,.75);
+}
+
+[name="size1"] {
+    margin-left: 8px;
+}
+
+.size .slash {
+    margin: 5px 6px 0 6px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+}
+
+.radius {
+    display: flex;
+    margin-top: 5px;
+}
+
+.radius span {
+    font-size: 10px;
+    font-family: Arial, sans-serif;
+    margin: 6px 7px 0 46px;
+}
+
+[name="radius"] {
+    width: 45px;
+    height: 17px;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,.75);
+}
+
+.season span {
+    font-size: 11px;
+    font-family: Arial, sans-serif;
+    margin-left: 15px;
+}
+
+.season label {
+    display: block;
+    height: 14px;
+    font-size: 14px;
 }
 
 .wheel {
+    position: relative;
     width: 266px;
     height: 134px;
-    -webkit-border-radius: 14px/18px 18px 17px 17px;
-    -moz-border-radius: 14px/18px 18px 17px 17px;
     border-radius: 14px/18px 18px 17px 17px;
     background-color: #fff;
-    -webkit-box-shadow: 3px 4px 5px rgba(150,150,150,.75), inset 1px 1px 5px rgba(0,0,0,.75);
-    -moz-box-shadow: 3px 4px 5px rgba(150,150,150,.75), inset 1px 1px 5px rgba(0,0,0,.75);
     box-shadow: 3px 4px 5px rgba(150,150,150,.75), inset 1px 1px 5px rgba(0,0,0,.75);
     border: solid 1px #9c9c9d;
 }
 
+.checkbox {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.wheel_leftblock,
+.wheel_rightblock {
+    display: inline-block;
+}
+
+.wheel_leftblock {
+    width: 60%;
+    margin-top: 19px;
+}
+
+.wheel_searchtitle {
+    display: inline-block;
+    width: 50%;
+}
+
+.wheel_searchlists {
+    display: inline-block;
+    width: 45%;
+}
+
+.wheel_search_title {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: -.5px;
+    font-weight: 600;
+}
+
+[name="wheel_diametr"],
+[name="holes_diametr"] {
+    width: 51px;
+    height: 17px;
+}
