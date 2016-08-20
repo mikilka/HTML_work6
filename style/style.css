@@ -372,6 +372,7 @@ section header
     position: relative;
     width: 266px;
     height: 134px;
+    margin-left: -2px;
     border-radius: 14px/18px 18px 17px 17px;
     background-color: #fff;
     box-shadow: 3px 4px 5px rgba(150,150,150,.75), inset 1px 1px 5px rgba(0,0,0,.75);
@@ -390,29 +391,96 @@ section header
 }
 
 .wheel_leftblock {
-    width: 60%;
-    margin-top: 19px;
+    width: 64%;
+    vertical-align: top;
+    margin-top: 20px;
 }
 
 .wheel_searchtitle {
     display: inline-block;
-    width: 50%;
+    width: 59%;
 }
 
 .wheel_searchlists {
     display: inline-block;
-    width: 45%;
+    vertical-align: top;
+    width: 30%;
 }
 
 .wheel_search_title {
+    display: block;
     font-family: Arial, sans-serif;
     font-size: 10px;
-    letter-spacing: -.5px;
+    margin: 3px 0 0 14px;
+    letter-spacing: .6px;
     font-weight: 600;
+}
+
+.wheel_search_title:nth-child(2) {
+    margin-top: 7px;
+    margin-bottom: -3px;
+}
+
+.wheel_searchlists select {
+    margin-bottom: 14px;
 }
 
 [name="wheel_diametr"],
 [name="holes_diametr"] {
-    width: 51px;
+    width: 57px;
     height: 17px;
+}
+
+[name="holes_number"] {
+    width: 50px;
+    height: 17px;
+}
+
+.wheel_vline {
+    display: inline-block;
+    width: 0px;
+    height: 120px;
+    border-right: solid 1px #000;
+}
+
+.wheel_rightblock {
+    width: 30%;
+    vertical-align: top;
+}
+
+.catalog {
+    display: inline-block;
+    float: left;
+    margin: 23px 0 0 44px;
+}
+
+.catalog_products {
+    width: 181px;
+    height: 25px;
+    border-radius: 12px/12px 12px 13px 13px;
+    background-color: #fff;
+    box-shadow: 2px 3px 3px rgba(150,150,150,.75);
+    border: solid 1px #79878d
+}
+
+.products_icon {
+    width: 20px;
+    height: 20px;
+    margin: 2px 0 0 3px;
+    border-radius: 10px;
+    background-color: #e20202;
+    background-image: linear-gradient(to bottom, #206988, #114165 59%, #0c3256)
+}
+
+.products_icon img {
+    margin: 3px 0 0 5px;
+}
+
+.catalog_tires {
+    width: 148px;
+    height: 26px;
+    margin: 14px 2px;
+    border-radius: 11px/13px;
+    background-color: #fff;
+    border: solid 1px #79878d;
 }
