@@ -10,6 +10,12 @@ header
     margin: 22px 53px;
 }
 
+a {
+    text-decoration: none;
+    font-family: inherit;
+    color: inherit;
+}
+
 .tel
 {
     font-family: Arial, sans-serif;
@@ -76,7 +82,6 @@ header
 
 .avtorization a
 {
-    text-decoration: none;
     color: #fff;
 }
 
@@ -160,7 +165,7 @@ section header
     height: 18px;
 }
 
-.products,
+.prod,
 .price {
     font-family: Arial, sans-serif;
     font-size: 11px;
@@ -451,12 +456,19 @@ section header
 .catalog {
     display: inline-block;
     float: left;
-    margin: 23px 0 0 44px;
+    margin: 20px 0 0 44px;
 }
 
-.catalog_products {
+.brands {
+    display: inline-block;
+    float: right;
+    margin: 20px 44px 0 0;
+}
+
+.products {
     width: 181px;
     height: 25px;
+    margin-bottom: 13px;
     border-radius: 12px/12px 12px 13px 13px;
     background-color: #fff;
     box-shadow: 2px 3px 3px rgba(150,150,150,.75);
@@ -476,11 +488,77 @@ section header
     margin: 3px 0 0 5px;
 }
 
-.catalog_tires {
+.oval {
     width: 148px;
     height: 26px;
-    margin: 14px 2px;
+    margin-left: 2px;
     border-radius: 11px/13px;
     background-color: #fff;
     border: solid 1px #79878d;
+}
+
+.blue_circle {
+    position: relative;
+    width: 22px;
+    height: 22px;
+    margin: 2px 2px 0 4px;
+    border-radius: 11px;
+    background-color: #114165;
+}
+
+.white_circle {
+    position: absolute;
+    top: 6px;
+    margin-left: 5px;
+    width: 12px;
+    height: 11px;
+    border-radius: 6px/6px 6px 5px 5px;
+    background-color: #fff;
+}
+
+.catalog_denomination {
+    margin: 6px 0 0 37px;
+    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+}
+
+.catalog_denomination li {
+    display: block;
+    box-sizing: border-box;
+    height: 16px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    padding-bottom: 13px;
+    color: #465961;
+}
+
+.catalog_denomination li:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.catalog_denomination li:hover {
+    font-family: Arial, sans-serif;
+    color: #0c3256;
+    font-size: 14px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.catalog_denomination li:before {
+    content: '';
+    display: inline-block;
+    width: 3px;
+    height: 4px;
+    margin-right: 2px;
+    border-radius: 100%;
+    background-color: #fff;
+    border: solid 2px #79878d;
+}
+
+.catalog_denomination li:hover:before {
+    border: solid 2px #313a55;
+}
+
+.catalog_wheels {
+
 }
