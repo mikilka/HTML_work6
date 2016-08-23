@@ -213,6 +213,30 @@ section header
     letter-spacing: .3px;
 }
 
+.avto button,
+.tire button,
+.wheel button {
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    color: #154467;
+    font-size: 14px;
+    border: 0;
+    background: none;
+}
+
+.avto button {
+    position: absolute;
+    bottom: 7px;
+    right: 16px;
+}
+.tire button,
+.wheel button {
+    position: absolute;
+    bottom: 9px;
+    right: 13px;
+}
+
 .title1 {
     position: absolute;
     font-family: Arial, sans-serif;
@@ -462,7 +486,7 @@ section header
 .brands {
     display: inline-block;
     float: right;
-    margin: 20px 44px 0 0;
+    margin: 19px 46px 0 0;
 }
 
 .products {
@@ -531,12 +555,14 @@ section header
     color: #465961;
 }
 
-.catalog_denomination li:last-child {
+.catalog_denomination li:last-child,
+.brands_denomination li:last-child {
     padding-bottom: 0;
     margin-bottom: 0;
 }
 
-.catalog_denomination li:hover {
+.catalog_denomination li:hover,
+.brands_denomination li:hover {
     font-family: Arial, sans-serif;
     color: #0c3256;
     font-size: 14px;
@@ -562,3 +588,56 @@ section header
 .catalog_wheels {
 
 }
+
+.brands_denomination {
+    margin: 4px 0 16px 21px;
+}
+
+.brands_denomination li {
+    display: block;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+    height: 16px;
+    margin-bottom: 9px;
+    font-size: 13px;
+    padding-bottom: 13px;
+    color: #465961;
+}
+
+.brands_tires,
+.brands_wheels {
+    width: 134px;
+    margin-left: 15px;
+}
+
+.brands_denomination [type="checkbox"] {
+    margin-right: 10px;
+}
+
+.brands button {
+    width: 80px;
+    height: 26px;
+    box-sizing: border-box;
+    margin: 8px 0 0 25px;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 10px/11px;
+    background-color: #000;
+    border: solid 1px #a7abae;
+    box-shadow: 2px 3px 3px rgba(150,150,150,.75);
+    background-image: linear-gradient(to bottom, #206988, #114165 59%, #0c3256);
+}
+
+/*.brands_denomination li:before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 2px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 1px rgba(0,0,0,.75);
+    border: solid 1px #114165;
+}*/
