@@ -561,8 +561,7 @@ section header
     margin-bottom: 0;
 }
 
-.catalog_denomination li:hover,
-.brands_denomination li:hover {
+.catalog_denomination li:hover {
     font-family: Arial, sans-serif;
     color: #0c3256;
     font-size: 14px;
@@ -611,7 +610,32 @@ section header
 }
 
 .brands_denomination [type="checkbox"] {
-    margin-right: 10px;
+    display: none;
+}
+
+.brands_denomination label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+
+.brands_denomination label::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 1px rgba(0,0,0,.75);
+    border: solid 1px #114165;
+    margin-right: 5px;
+}
+
+input[type="checkbox"]:checked + label::before {
+    content: "\2713";
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    color: #00f;
+    font-size: 10px;
+    font-weight: 600;
 }
 
 .brands button {
