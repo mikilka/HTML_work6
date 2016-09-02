@@ -655,13 +655,105 @@ input[type="checkbox"]:checked + label::before {
     background-image: linear-gradient(to bottom, #206988, #114165 59%, #0c3256);
 }
 
-/*.brands_denomination li:before {
-    content: '';
-    display: inline-block;
-    width: 8px;
-    height: 8px;
-    margin-right: 2px;
+.picture {
+    display: flex;
+    padding-left: 16px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 526px;
+    height: 627px;
+    margin-top: 20px;
+    margin-left: 30px; /*not working*/
+    box-sizing: border-box;
+    padding-top: 10px;
+    border-radius: 3px/2px 2px 3px 3px;
     background-color: #fff;
-    box-shadow: inset 1px 1px 1px rgba(0,0,0,.75);
-    border: solid 1px #114165;
-}*/
+    background-image: linear-gradient(to top, rgba(35,75,93,.49), rgba(201,207,209,.49));
+}
+
+figure .img {
+    display: inline-block;
+    width: 138px;
+    height: 127px;
+    box-sizing: border-box;
+    padding-top: 5px;
+    border-radius: 7px/8px 8px 7px 7px;
+    background-color: #fff;
+    border: solid 1px #a4aeb1;
+    text-align: center;
+}
+
+.top {
+    font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+    font-size: 13px;
+    color: #1f2528;
+    text-align: center;
+}
+
+.bottom {
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+    color: #114165;
+    text-align: center;
+}
+
+.top:first-line {
+    font-size: 15px;
+    color: #206988;
+}
+
+.logotypes {
+    margin: 10px 155px;
+}
+
+.logotypes li {
+    display: inline-block;
+}
+
+.logotypes a {
+    display: inline-block;
+    height: 30px;
+    background-image: url(../img/logotypes.png);
+}
+
+.toyo {
+    width: 95px;
+    background-position: 0 0;
+}
+
+.bridgestone {
+    width: 100px;
+    background-position: -95px 0;
+}
+
+.continental {
+    width: 95px;
+    background-position: -200px 0;
+}
+
+.dodper {
+    width: 70px;
+    background-position: -295px 0;
+}
+
+.avon {
+    width: 85px;
+    background-position: -365px 0;
+}
+
+.factory {
+    width: 65px;
+    background-position: -455px 0;
+}
+
+.pirelli {
+    width: 65px;
+    background-position: -525px 0;
+}
+
+.dunlop {
+    width: 76px;
+    background-position: -600px 0;
+}
